@@ -21,7 +21,7 @@ While our baseline model achieved a state-of-the-art clean accuracy of **98.25%*
 
 Digital sabotage using the **Fast Gradient Sign Method (FGSM)** introduces subtle perturbations to leaf images. To the human eye, the change is nearly invisible, but to the neural network, it shifts the classification entirely, potentially leading to incorrect crop management decisions.
 
-![Adversarial Perturbation Example](download.jpg)
+![Adversarial Perturbation Example](image1.jpg)
 *Figure 1: Original healthy Blueberry leaf vs. Adversarial Noise vs. Attacked image misclassified as Tomato healthy.*
 
 ---
@@ -30,7 +30,7 @@ Digital sabotage using the **Fast Gradient Sign Method (FGSM)** introduces subtl
 
 The following confusion matrix illustrates the performance of the Baseline ResNet-18 model across the 38 distinct plant-leaf disease classes within the PlantVillage dataset prior to adversarial attack.
 
-![Confusion Matrix](download%20(1).png)
+![Confusion Matrix](image2.png)
 *Figure 2: Confusion Matrix: Baseline ResNet18*
 
 ---
